@@ -6,6 +6,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
     box-sizing: border-box;
 }
 
+
 body {
     background-color: grey;
     font-family: 'Dancing Script', cursive;
@@ -72,7 +73,6 @@ h1 {
   display: grid; 
   grid-template-columns: 1fr 1fr;
 }
-
 
 .column {float: left; padding: 0 3vw; margin: 0 0 .75rem 0;}
 
@@ -164,7 +164,12 @@ footer h2 {
 
   }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both; }
+  /* 
+  @media only screen and (min-width: 768px) {
+
+    .medium-6 {width: 50%; }
+  
+    @media only screen and (min-width: 1024px) {
+  
+  
+      .large-3 {width: 25%;}
