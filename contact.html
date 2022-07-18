@@ -17,46 +17,78 @@
      <!--Main Info-->
      <main>
         <!--Header-->
-        <header class="header">
-            
-                <img src="images/pinklifelogo.jpeg"> Life After Diagnosis 
-            
-        <!--NAV-->
-            <section class="nav">
-                  <a class="active" href="index.html">My Story</a>
-                <a href="breastcancer.html">What is Breast Cancer</a>
-                <a href="nextsteps.html">Next Steps</a>
-                <a href="contact.html">Contact Me</a>
-                </section>
+        <div class="header">
+            <img src="images/pinklifelogo.jpeg"> <span>Life After Diagnosis</span> </div>
+                
         
-                </div>
+        <!--NAV-->
+            <div class="nav">
+                <span><div class="nav-links">
+                    <ul>
+                <li><a href="index.html">My Story</a></li>
+                <li><a href="breastcancer.html">What is Breast Cancer</a></li>
+                <li><a href="nextsteps.html">Next Steps</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul></span>
+                 </div>
         
             </header>
           
           <div class="container">
+        <!--Hero-->
+<section class="hero">
+    <img src="images/jaewhite2.JPG" width="300" height="400"> 
+
               <form action="action_page.php">
+          <h2>Contact Me</h2>
+              <!--<label for="fname">First Name</label>-->
+              <input type="text" id="fname" name="firstname" placeholder="Enter your first name..">
           
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <!--<label for="lname">Last Name</label>-->
+              <input type="text" id="lname" name="lastname" placeholder="Enter your last name..">
           
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="lname">Email Address</label>
-              <input type="text" id="email" name="email" placeholder="Your Email Address..">
+              <!--should I use type=email or is this ok?-->
+              <!--<label for="lname">Email Address</label>-->
+              <input type="text" id="email" name="email" placeholder="Enter your Email Address..">
               </select>
           
-              <label for="subject">Subject</label>
+              <!--<label for="subject">Subject</label>-->
               <textarea id="subject" name="subject" placeholder="How can I help you.." style="height:200px"></textarea>
           
               <input type="submit" value="Submit">
           
             </form>
           </div>
+          <hr>
 <!--Footer-->
-<section class="footer">
-    &copy Janelle Antoine
+
+<div class="footer">
+    <div class="copyright">&copy Janelle Antoine</div>
+    <div class="footer-links">
+<ul>
+    <li>
+        <a href="https://facebook.com/janelle.antoine" target="blank">
+        <img src="images/facebook.png" width="50">
+    </a>
+    </li>
+    <li>
+        <a href="https://instagram.com/j22antoine" target="blank">
+        <img src="images/instagram.png" width="50">
+    </a>
+    </li>
+    <li>
+        <a href="https://www.linkedin.com/in/janelleantoine" target="blank">
+        <img src="images/linkedIn.png" width="50">
+    </a>
+    </li>
+    <a href="https://www.twitter.com/j22antoine" target="blank">
+    <li><img src="images/twitter.png" width="50">
+    </a>
+    </li>
+</ul>
+</div>
 </footer>
     
+<script src="js/form.js"></script> 
 </body>
 </html>
