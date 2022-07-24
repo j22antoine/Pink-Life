@@ -16,9 +16,13 @@ main, header, section, aside, footer {
     color: white;
 }
 
-.logo{
-  
-}
+.intro {
+    display: inline-flex;
+   justify-content: center;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 100%;
+  }
 
 .header{
     background-color: rgb(226, 43, 180);
