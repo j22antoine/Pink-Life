@@ -1,7 +1,11 @@
-let form = document.getElementById("form");
 
-form.onsubmit = function(){
-let inputs = Object.fromEntries([...form.children].filter(e=>e.localName=="input"&&e.placeholder).map(e=>[e.placeholder,e.value]));
+const email = document.getElementsByClassName("form");
 
-for(key in inputs) alert(key+": "+inputs[key]);
-}
+email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("I am expecting an e-mail address!");
+    email.reportValidity();
+  } else {
+    email.setCustomValidity("");
+  }
+});

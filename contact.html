@@ -4,60 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Life After Diagnosis | Contact Me</title>
     
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles4.css" />
-    
+    <link rel="stylesheet" href="css/form.css" />
+
     </head>
     <body>
-     <!--Main Info-->
-     <main>
-        <!--Header-->
-        <div class="header">
-            <img src="images/pinklifelogo.jpeg"> <span>Life After Diagnosis</span> </div>
-                
-        
-        <!--NAV-->
-            <div class="nav">
-                <span><div class="nav-links">
-                    <ul>
-                <li><a href="index.html">My Story</a></li>
-                <li><a href="breastcancer.html">What is Breast Cancer</a></li>
-                <li><a href="nextsteps.html">Next Steps</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul></span>
-                 </div>
-        
-            </header>
+     <!--Header-->
+<div class="logo">
+    <img src="images/pinklifelogo.jpeg">
+</div>
+<div class="header">
+    Life After Diagnosis</header></div>
+
+
+<!--NAV-->
+<div class="nav">
+    <div class="toggle-button">
+     
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+     
+    </a></div>
+  
+  <div class="nav-links">
+        <ul>
+    <li><a href="index.html">My Story</a></li>
+    <li><a href="breastcancer.html">What is Breast Cancer</a></li>
+    <li><a href="nextsteps.html">Next Steps</a></li>
+    <li><a href="contact.html">Contact Me</a></li>
+</ul>
+
+</div></div>
           
           <div class="container">
         <!--Hero-->
 <section class="hero">
     <img src="images/jaewhite2.JPG" width="300" height="400"> 
+    <h2>Have a question?</h2>
+<form action="mailto:janelle.antoine@gmail.com" method="post" enctype="text/plain">
 
-              <form action="action_page.php">
-          <h2>Contact Me</h2>
-              <!--<label for="fname">First Name</label>-->
-              <input type="text" id="fname" name="firstname" placeholder="Enter your first name..">
-          
-              <!--<label for="lname">Last Name</label>-->
-              <input type="text" id="lname" name="lastname" placeholder="Enter your last name..">
-          
-              <!--should I use type=email or is this ok?-->
-              <!--<label for="lname">Email Address</label>-->
-              <input type="text" id="email" name="email" placeholder="Enter your Email Address..">
-              </select>
-          
-              <!--<label for="subject">Subject</label>-->
-              <textarea id="subject" name="subject" placeholder="How can I help you.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
+         Name:<br>
+        <input type="text" name="name"><br>
+        E-mail:<br>
+        <input type="email" name="mail"><br>
+        Comment:<br>
+        <input type="text" name="comment" size="50"><br><br>
+        
+        <input type="submit" 
+        value="Send" name="Submit"/>
+        
+        </form>
+
           </div>
           <hr>
 <!--Footer-->
@@ -90,5 +90,6 @@
 </footer>
     
 <script src="js/form.js"></script> 
+<script src="js/toggle.js"></script>
 </body>
 </html>
