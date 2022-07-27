@@ -16,15 +16,8 @@ main, header, section, aside, footer {
     color: white;
 }
 
-.intro {
-    display: inline-flex;
-   justify-content: center;
-    margin-bottom: 0px;
-    padding: 10px;
-    width: 100%;
-  }
 
-.header{
+header{
     background-color: rgb(226, 43, 180);
     padding: 20px;
     font-size: 40px;
@@ -38,7 +31,7 @@ main, header, section, aside, footer {
         background: #000000;
          }
                
-        .header {
+        header {
             background: rgb(226, 43, 180);
             padding: 20px;
             font-size: 40px;
@@ -79,7 +72,7 @@ main {
     
 }
 
-.header {
+header {
     background: rgb(226, 43, 180);
     padding: 20px;
     font-size: 40px;
@@ -188,62 +181,11 @@ main {
           
 }
 
-.article {
-    display: grid;
-    grid-direction: row;
-}
 
-.container-1 {
-background: black;
-display: flex;
-flex-direction: row; 
-justify-content: space-evenly;
-}
 
-.item {
-padding: 20px;
-text-align: center;
-flex-direction: column;
-background: black;
-font-size: 1.5rem;
-        
-}
 
-.quote {
-    border: 1px solid black;
-     background: pink;
-     font-family: 'Dancing Script', cursive;
-     font-size: 30px;
-     text-align: center;
-}
 
-.resources {
-    border: 1px solid black;
-    padding: 20px; 
-    background: pink;
-     flex-grow: 1;
-    font-size: 20px;
-    color: white; 
-}
-
-.resources-links {
-    text-decoration: none;
-}
-
-.story {
-    background: rgb(226, 43, 180);
-    flex-grow: 1;
-    font-size: 20px;
-}
-
- .sidepanel {
-     border: 1px solid #000000;
-     width: 100%;
-     background:gray;
-     display: inline-flex;
- }
-
- .grid-container {
+  .grid-container {
 display: grid;
 grid-template-columns: auto auto auto;
 background-color: black;
@@ -257,29 +199,27 @@ text-align: center;
 }
 
 
-
-
  /* Contact Form Styling */
 input[type=text], select, textarea {
-    width: 50%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 50%; 
+    padding: 12px; 
+    border: 1px solid gray; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
   }
 
   input[type=email], select, textarea {
-    width: 50%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 50%; 
+    padding: 12px; 
+    border: 1px solid gray; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
   }
   
   input[type=submit] {
@@ -305,7 +245,7 @@ input[type=text], select, textarea {
   }
 
    /* Footer Styling */
-.footer {
+footer {
     background: white;
     padding: 10px;
     width: 100%
